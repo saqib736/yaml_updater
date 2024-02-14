@@ -1,0 +1,30 @@
+#utf-8
+picking:
+  max_error:
+    bottle: [0.006, 0.006, 0.006] 
+    can: [0.004, 0.004, 0.004] 
+  max_speed: 0.25
+  max_accel: 0.6 
+
+placing:
+  max_error:
+    bottle: [0.001, 0.001, 0.001]
+    can: [0.001, 0.001, 0.001] 
+  max_speed: 0.2 
+  max_accel: 0.35
+
+move:
+  max_error: [0.005, 0.005, 0.005] 
+  max_speed: 0.15 
+  max_accel: 0.30 
+
+origin_offset: [0.25, 0.15, 0.55] 
+auto_check: true 
+
+error_msgs:
+  impossible_move:
+    jp: "ロボットは要求された動作を行うことができません"
+    en: "Robot cannot perform the requested move"
+  cannot_reach:
+    en: "Target not reached. Please retry."
+    jp: "ターゲットに到達していない。もう一度試してください。"

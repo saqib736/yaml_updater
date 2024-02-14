@@ -1,0 +1,4 @@
+- valid: true
+invalid: "No quotation mark at the end
+- list: [Missing, comma between items
+- { invalid: syntax, due: to missing } bracket

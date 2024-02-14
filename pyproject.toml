@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yaml_updater"
+version = "v1.0"
+description = "A YAML configuration updater application"
+authors = [{name = "Saqib Mehmood", email = "saqibmehmood736@gmail.com"}]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "ruamel.yaml",
+    "daiquiri",
+    "pytest"
+]
+
+[project.urls]
+repository = "https://github.com/saqib736/yaml_updater.git"
+
+[project.scripts]
+config-updater = "yaml_updater.updater:main"
+
+[tool.setuptools]
+packages = ["yaml_updater"]

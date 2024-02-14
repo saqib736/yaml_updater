@@ -1,0 +1,31 @@
+#utf-8
+picking:
+  max_error:
+    bottle: [0.005, 0.005, 0.005]
+    can: [0.003, 0.003, 0.003]
+    box: [0.002, 0.002, 0.002]  # Added new item
+  max_speed: 0.20 
+  max_accel: 0.50
+
+placing:
+  max_error:
+    bottle: [0.001, 0.001, 0.001]
+    can: [0.001, 0.001, 0.001]
+  max_speed: 0.15 #Value retained
+  max_accel: 0.30 #value retained
+
+move:
+  max_speed: 0.15 
+  max_accel: 0.30 
+
+origin_offset: [0.2, 0.1, 0.5] 
+auto_check: false #value retained
+
+error_msgs:
+  impossible_move:
+    en: "Robot cannot perform the requested move"
+  cannot_reach:
+    en: "Target not reached."
+  system_error: # Added new item
+    en: 'System encountered an unexpected error.'
+    jp: 'システムに予期しないエラーが発生しました。'
