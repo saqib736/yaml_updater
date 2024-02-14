@@ -115,6 +115,16 @@ For detailed information about the command-line options, refer to the help docum
 config-updater --help
 ```
 
+## Testing
+
+To test the YAML UPDATER application with PYTEST move into the `\tests` directory and run the following command from the terminal to check different test cases:
+
+```bash
+pytest test_updater.py -vv
+```
+
+- `-vv`: This argument is for the verbose mode to get the complete details of the test.
+  
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
