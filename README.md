@@ -124,7 +124,10 @@ pytest test_updater.py -vv
 ```
 
 - `-vv`: This argument is for the verbose mode to get the complete details of the test.
-  
+
+## Disclaimer
+This project was the test project for the software QA engineer position. It was ranked at number 1 by the organization. 
+
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
